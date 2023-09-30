@@ -1,0 +1,114 @@
+.dinnerbox-container {
+  display: inline-block;
+  margin: 21px;
+  width: 30%;
+}
+
+.dinnerbox-container .dinnerbox {
+  border-radius: 5px;
+  border: 2px solid hsla(0, 0%, 100%, 0.3);
+
+  position: relative;
+  padding: 10px;
+  text-align: center;
+}
+
+.dinnerbox-container .dinnerbox .fa-heart {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 25px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.dinnerbox-container .dinnerbox .fa-heart:hover {
+  color: yellow;
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+}
+
+.dinnerbox-container .dinnerbox .image img {
+  height: 150px;
+  width: auto;
+  margin-top: 20px;
+}
+.dinnerbox-container .dinnerbox:hover .image img {
+  transform: scale(1.2);
+  transition-duration: 0.8s;
+}
+.dinnerbox-container .dinnerbox .dinnercontent h3 {
+  font-size: 30px;
+  color: white;
+}
+.dinnerbox-container .dinnerbox .dinnercontent p {
+  font-size: 14px;
+}
+
+.dinnerbox-container .dinnerbox .dinnercontent .stars {
+  padding: 5px 0;
+  font-size: 20px;
+}
+
+.dinnerbox-container .dinnerbox .dinnercontent .stars i {
+  color: gold;
+}
+
+.dinnerbox-container .dinnerbox .dinnercontent .stars h5 {
+  color: #a9a8a8;
+  display: inline-block;
+}
+
+.dinnerbox-container .dinnerbox .dinnercontent .dinnerprice {
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+}
+
+.dinnerbox-container .dinnerbox .dinnercontent .dinnerprice h5 {
+  font-size: 15px;
+  color: #aba9a9;
+  text-decoration: line-through;
+  display: inline-block;
+}
+@media (max-width: 1260px) {
+  .dinnerbox-container {
+    margin: 29px;
+    width: 45%;
+  }
+}
+@media (max-width: 1160px) {
+  .dinnerbox-container {
+    width: 44%;
+    margin: 29px;
+  }
+}
+@media (max-width: 967px) {
+  .dinnerbox-container {
+    width: 44%;
+    margin: 27px;
+  }
+}
+@media (max-width: 900px) {
+  .dinnerbox-container {
+    width: 43%;
+    margin: 27px;
+  }
+}
+@media (max-width: 771px) {
+  .dinnerbox-container {
+    width: 42%;
+    margin: 27px;
+  }
+}
+@media (max-width: 675px) {
+  .dinnerbox-container {
+    width: 40%;
+    margin: 27px;
+  }
+}
+@media (max-width: 540px) {
+  .dinnerbox-container {
+    width: 85%;
+  }
+}

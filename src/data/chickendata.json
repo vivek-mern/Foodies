@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "title": "Mommos",
+    "price": 70,
+    "description": "deslicious food in the world",
+    "image": "./images/food-1.png",
+    "rating": { "rate": 3.9, "count": 120 }
+  },
+  {
+    "id": 2,
+    "title": "Burger",
+    "price": 100,
+    "description": "deslicious food in the world",
+    "category": "men's clothing",
+    "image": "./images/food-2.png",
+    "rating": { "rate": 4.1, "count": 259 }
+  },
+  {
+    "id": 3,
+    "title": "Pizza",
+    "price": 120,
+    "description": "deslicious food in the world",
+    "category": "men's clothing",
+    "image": "./images/food-3.png",
+    "rating": { "rate": 4.7, "count": 500 }
+  },
+  {
+    "id": 4,
+    "title": "Dark Burger",
+    "price": 150,
+    "description": "deslicious food in the world",
+    "category": "men's clothing",
+    "image": "./images/food-4.png",
+    "rating": { "rate": 2.1, "count": 430 }
+  },
+  {
+    "id": 5,
+    "title": "Veg Loaded",
+    "price": 195,
+    "description": "deslicious food in the world",
+    "category": "jewelery",
+    "image": "./images/food-5.png",
+    "rating": { "rate": 4.6, "count": 400 }
+  },
+  {
+    "id": 6,
+    "title": "Tomato Pizza",
+    "price": 195,
+    "description": "deslicious food in the world",
+    "category": "jewelery",
+    "image": "./images/food-6.png",
+    "rating": { "rate": 4.6, "count": 400 }
+  },
+  {
+    "id": 7,
+    "title": "Burger King",
+    "price": 195,
+    "description": "deslicious food in the world",
+    "category": "jewelery",
+    "image": "./images/food-7.png",
+    "rating": { "rate": 4.6, "count": 400 }
+  },
+  {
+    "id": 8,
+    "title": "Corn Pizza",
+    "price": 195,
+    "description": "deslicious food in the world",
+    "category": "jewelery",
+    "image": "./images/food-8.png",
+    "rating": { "rate": 4.6, "count": 400 }
+  }
+]

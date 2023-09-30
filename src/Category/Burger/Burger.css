@@ -1,0 +1,48 @@
+.burger {
+  display: flex;
+}
+.burger-content {
+  flex: 1 1 41rem;
+  padding: 7%;
+}
+.burger-content span {
+  font-size: 25px;
+  color: yellow;
+  font-family: "Satisfy", cursive;
+}
+.burger-content h3 {
+  font-size: 40px;
+  color: white;
+}
+.burger-content p {
+  font-size: 14px;
+  color: white;
+}
+.image {
+  flex: 1 1 41rem;
+}
+.burger-img {
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .burger {
+    flex-wrap: wrap-reverse;
+  }
+  .burger-content {
+    padding: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .burger {
+    margin-top: 5rem;
+  }
+}
+@media (max-width: 400px) {
+  .burger-content h3 {
+    font-size: 28px;
+  }
+  .burger-content p {
+    font-size: 12px;
+  }
+}

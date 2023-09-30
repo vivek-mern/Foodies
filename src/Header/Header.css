@@ -1,0 +1,88 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 9%;
+  display: flex;
+  /* box-shadow: 0 10px 10px rgb(0, 0, 0, 0.05); */
+  border-bottom: 2px solid hsla(0, 0%, 100%, 0.3);
+}
+.logo {
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(10, 193, 10);
+}
+.logo:hover {
+  color: yellow;
+  transition-duration: 0.3s;
+}
+
+.logo span {
+  color: rgb(223, 223, 52);
+  padding-left: 5px;
+}
+.navbar a {
+  font-size: 17px;
+  margin: 0 1rem;
+  color: white;
+  font-weight: 500;
+}
+.navbar a:hover {
+  color: yellow;
+  transition-duration: 0.5s;
+  border-bottom: 1px solid yellow;
+}
+.icons div {
+  height: 30px;
+  width: 35px;
+  font-size: 18px;
+  color: white;
+  margin-left: 0.2rem;
+  cursor: pointer;
+  text-align: center;
+  line-height: 28px;
+}
+.icons div:hover {
+  background: yellow;
+  border-radius: 5px;
+  color: black;
+  transition-duration: 0.3s;
+}
+.cart-number {
+  background-color: yellow;
+  color: black;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  font-size: 13px;
+}
+
+@media (max-width: 991px) {
+  .header {
+    padding: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .header .navbar {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    background: yellow;
+  }
+  .header .navbar a {
+    font-size: 11px;
+    margin: 20px;
+    display: flex;
+    font-weight: 600;
+    color: black;
+  }
+  .header .navbar a:hover {
+    color: red;
+  }
+}

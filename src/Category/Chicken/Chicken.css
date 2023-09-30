@@ -1,0 +1,48 @@
+.chicken {
+  display: flex;
+}
+.chicken-content {
+  flex: 1 1 41rem;
+  padding: 7%;
+}
+.chicken-content span {
+  font-size: 25px;
+  color: yellow;
+  font-family: "Satisfy", cursive;
+}
+.chicken-content h3 {
+  font-size: 40px;
+  color: white;
+}
+.chicken-content p {
+  font-size: 14px;
+  color: white;
+}
+.image {
+  flex: 1 1 41rem;
+}
+.chicken-img {
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .chicken {
+    flex-wrap: wrap-reverse;
+  }
+  .chicken-content {
+    padding: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .chicken {
+    margin-top: 5rem;
+  }
+}
+@media (max-width: 400px) {
+  .chicken-content h3 {
+    font-size: 28px;
+  }
+  .chicken-content p {
+    font-size: 12px;
+  }
+}

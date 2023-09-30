@@ -1,0 +1,48 @@
+.coffee {
+  display: flex;
+}
+.coffee-content {
+  flex: 1 1 41rem;
+  padding: 7%;
+}
+.coffee-content span {
+  font-size: 25px;
+  color: yellow;
+  font-family: "Satisfy", cursive;
+}
+.coffee-content h3 {
+  font-size: 40px;
+  color: white;
+}
+.coffee-content p {
+  font-size: 14px;
+  color: white;
+}
+.image {
+  flex: 1 1 41rem;
+}
+.coffee-img {
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .coffee {
+    flex-wrap: wrap-reverse;
+  }
+  .coffee-content {
+    padding: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .coffee {
+    margin-top: 5rem;
+  }
+}
+@media (max-width: 400px) {
+  .coffee-content h3 {
+    font-size: 28px;
+  }
+  .coffee-content p {
+    font-size: 12px;
+  }
+}

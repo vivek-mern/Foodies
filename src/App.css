@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  outline: none;
+}
+body {
+  background-color: black;
+}
+a {
+  text-decoration: none;
+}
+.btns {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 25px;
+  font-size: 14px;
+  font-weight: bolder;
+  cursor: pointer;
+  color: black;
+  background: yellow;
+  border: none;
+  border-radius: 5px;
+}
+.btns:hover {
+  background-color: yellow;
+  letter-spacing: 0.2px;
+  transition-duration: 0.5s;
+  color: black;
+}
+.wrapper-btn {
+  border: 1px solid yellow;
+  width: 40%;
+}
+
+.wrapper-btn a {
+  padding: 2px;
+  line-height: 40px;
+  display: block;
+  color: white;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+}
+
+.wrapper-btn a b {
+  position: relative;
+  z-index: 2;
+  font-size: 18px;
+}
+
+.wrapper-btn a:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: yellow;
+  transition: all 0.35s;
+}
+
+.wrapper-btn a:hover {
+  color: black;
+}
+
+.wrapper-btn a:hover:after {
+  width: 100%;
+}

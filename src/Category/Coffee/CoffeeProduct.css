@@ -1,0 +1,114 @@
+.coffeebox-container {
+  display: inline-block;
+  margin: 21px;
+  width: 30%;
+}
+
+.coffeebox-container .coffeebox {
+  border-radius: 5px;
+  border: 2px solid hsla(0, 0%, 100%, 0.3);
+
+  position: relative;
+  padding: 10px;
+  text-align: center;
+}
+
+.coffeebox-container .coffeebox .fa-heart {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 25px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.coffeebox-container .coffeebox .fa-heart:hover {
+  color: yellow;
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+}
+
+.coffeebox-container .coffeebox .image img {
+  height: 150px;
+  width: auto;
+  margin-top: 20px;
+}
+.coffeebox-container .coffeebox:hover .image img {
+  transform: scale(1.2);
+  transition-duration: 0.8s;
+}
+.coffeebox-container .coffeebox .coffeecontent h3 {
+  font-size: 30px;
+  color: white;
+}
+.coffeebox-container .coffeebox .coffeecontent p {
+  font-size: 14px;
+}
+
+.coffeebox-container .coffeebox .coffeecontent .stars {
+  padding: 5px 0;
+  font-size: 20px;
+}
+
+.coffeebox-container .coffeebox .coffeecontent .stars i {
+  color: gold;
+}
+
+.coffeebox-container .coffeebox .coffeecontent .stars h5 {
+  color: #a9a8a8;
+  display: inline-block;
+}
+
+.coffeebox-container .coffeebox .coffeecontent .coffeeprice {
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+}
+
+.coffeebox-container .coffeebox .coffeecontent .coffeeprice h5 {
+  font-size: 15px;
+  color: #aba9a9;
+  text-decoration: line-through;
+  display: inline-block;
+}
+@media (max-width: 1260px) {
+  .coffeebox-container {
+    margin: 29px;
+    width: 45%;
+  }
+}
+@media (max-width: 1160px) {
+  .coffeebox-container {
+    width: 44%;
+    margin: 29px;
+  }
+}
+@media (max-width: 967px) {
+  .coffeebox-container {
+    width: 44%;
+    margin: 27px;
+  }
+}
+@media (max-width: 900px) {
+  .coffeebox-container {
+    width: 43%;
+    margin: 27px;
+  }
+}
+@media (max-width: 771px) {
+  .coffeebox-container {
+    width: 42%;
+    margin: 27px;
+  }
+}
+@media (max-width: 675px) {
+  .coffeebox-container {
+    width: 40%;
+    margin: 27px;
+  }
+}
+@media (max-width: 540px) {
+  .coffeebox-container {
+    width: 85%;
+  }
+}

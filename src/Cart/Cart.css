@@ -1,0 +1,51 @@
+.shopping-cart .cart-item {
+  padding: 10px 10px;
+  margin-top: 20px;
+  border: 1px solid white;
+}
+.shopping-cart .cart-item .product-name {
+  font-size: 18px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  cursor: pointer;
+  padding-left: 10px;
+}
+.shopping-cart .cart-item:hover .product-name {
+  transform: scale(1.2);
+  transition-duration: 0.3s;
+}
+.shopping-cart .cart-item .price {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 4px 2px;
+}
+.shopping-cart .btn1 {
+  border: 1px solid yellow;
+  padding: 5px 10px;
+  margin-right: 3px;
+  font-size: 16px;
+  color: white;
+}
+.shopping-cart .btn1:hover {
+  background-color: yellow;
+  color: black;
+}
+.shopping-cart .input-quantity {
+  border: 1px solid yellow;
+  margin-right: 3px;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  width: 30%;
+  outline: none;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .cart {
+    margin-top: 80px;
+  }
+  .shopping-cart .cart-item {
+    margin-top: 0px;
+  }
+}

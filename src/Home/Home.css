@@ -1,0 +1,77 @@
+.top {
+  --offset: 50px;
+
+  position: sticky;
+  bottom: 20px;
+  left: 93%;
+  margin-top: calc(100vh + var(--offset));
+  text-decoration: none;
+  padding: 0px 16px;
+  color: black;
+  font-size: 40px;
+  background-color: yellow;
+  border-radius: 5px;
+}
+.top:hover {
+  color: black;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+.content {
+  flex: 1 1 41rem;
+  padding: 7%;
+}
+.content span {
+  font-size: 25px;
+  color: yellow;
+}
+.content h3 {
+  font-size: 40px;
+  color: white;
+}
+.content p {
+  font-size: 14px;
+  color: white;
+}
+.image {
+  flex: 1 1 41rem;
+}
+.home-img {
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .home {
+    flex-wrap: wrap-reverse;
+  }
+  .content {
+    padding: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .home {
+    margin-top: 5rem;
+  }
+  .top {
+    left: 80%;
+  }
+}
+@media (max-width: 400px) {
+  .content h3 {
+    font-size: 28px;
+  }
+  .content p {
+    font-size: 12px;
+  }
+}

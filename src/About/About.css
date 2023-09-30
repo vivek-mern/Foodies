@@ -1,0 +1,47 @@
+.about {
+  display: flex;
+  flex: wrap;
+  align-items: center;
+}
+.image {
+  flex: 1 1 20rem;
+}
+.image img {
+  width: 100%;
+}
+.content {
+  flex: 1 1 20rem;
+}
+.content span {
+  font-family: "Satisfy", cursive;
+}
+.icons-container {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.icons-container .icons {
+  flex: 1 1 10rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 15px;
+}
+.icons-container .icons h3 {
+  font-size: 20px;
+}
+
+@media (max-width: 991px) {
+  .about {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  .icons-container .icons h3 {
+    font-size: 14px;
+  }
+  .about {
+    margin-top: 80px;
+  }
+}

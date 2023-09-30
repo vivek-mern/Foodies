@@ -1,0 +1,114 @@
+.combobox-container {
+  display: inline-block;
+  margin: 21px;
+  width: 30%;
+}
+
+.combobox-container .combobox {
+  border-radius: 5px;
+  border: 2px solid hsla(0, 0%, 100%, 0.3);
+
+  position: relative;
+  padding: 10px;
+  text-align: center;
+}
+
+.combobox-container .combobox .fa-heart {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 25px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.combobox-container .combobox .fa-heart:hover {
+  color: yellow;
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+}
+
+.combobox-container .combobox .image img {
+  height: 150px;
+  width: auto;
+  margin-top: 20px;
+}
+.combobox-container .combobox:hover .image img {
+  transform: scale(1.2);
+  transition-duration: 0.8s;
+}
+.combobox-container .combobox .combocontent h3 {
+  font-size: 30px;
+  color: white;
+}
+.combobox-container .combobox .combocontent p {
+  font-size: 14px;
+}
+
+.combobox-container .combobox .combocontent .stars {
+  padding: 5px 0;
+  font-size: 20px;
+}
+
+.combobox-container .combobox .combocontent .stars i {
+  color: gold;
+}
+
+.combobox-container .combobox .combocontent .stars h5 {
+  color: #a9a8a8;
+  display: inline-block;
+}
+
+.combobox-container .combobox .combocontent .comboprice {
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+}
+
+.combobox-container .combobox .combocontent .comboprice h5 {
+  font-size: 15px;
+  color: #aba9a9;
+  text-decoration: line-through;
+  display: inline-block;
+}
+@media (max-width: 1260px) {
+  .combobox-container {
+    margin: 29px;
+    width: 45%;
+  }
+}
+@media (max-width: 1160px) {
+  .combobox-container {
+    width: 44%;
+    margin: 29px;
+  }
+}
+@media (max-width: 967px) {
+  .combobox-container {
+    width: 44%;
+    margin: 27px;
+  }
+}
+@media (max-width: 900px) {
+  .combobox-container {
+    width: 43%;
+    margin: 27px;
+  }
+}
+@media (max-width: 771px) {
+  .combobox-container {
+    width: 42%;
+    margin: 27px;
+  }
+}
+@media (max-width: 675px) {
+  .combobox-container {
+    width: 40%;
+    margin: 27px;
+  }
+}
+@media (max-width: 540px) {
+  .combobox-container {
+    width: 85%;
+  }
+}

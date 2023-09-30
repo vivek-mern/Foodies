@@ -1,0 +1,74 @@
+.banner .row-banner {
+  background: url(../../public/images/rowbanner.png) no-repeat;
+  height: 30rem;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin: 10px;
+}
+.banner .row-banner .content {
+  position: absolute;
+  top: 4%;
+}
+.banner .row-banner .content h5 {
+  font-family: "Satisfy", cursive;
+  font-size: 50px;
+}
+.banner .row-banner .content h4 {
+  font-size: 60px;
+  color: red;
+}
+.banner .row-banner .content p {
+  font-size: 20px;
+}
+
+.grid-banner {
+  display: inline-flex;
+  margin: 1px;
+  margin-bottom: 15px;
+}
+.grid-banner h5 {
+  color: white;
+}
+
+.grid-banner h4 {
+  font-size: 28px;
+  color: white;
+}
+
+.change h4 {
+  color: black;
+}
+.change h5 {
+  color: black;
+}
+.grid-banner .grid {
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+}
+.grid-banner .grid img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.grid-banner .grid .content {
+  position: absolute;
+  top: 20px;
+  padding: 0 30px;
+}
+@media (max-width: 768px) {
+  .banner .row-banner .content {
+    position: absolute;
+    top: 12%;
+  }
+  .banner .row-banner .content h5 {
+    font-size: 30px;
+  }
+  .banner .row-banner .content h4 {
+    font-size: 40px;
+  }
+  .banner .row-banner .content p {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,114 @@
+.burgerbox-container {
+  display: inline-block;
+  margin: 21px;
+  width: 30%;
+}
+
+.burgerbox-container .burgerbox {
+  border-radius: 5px;
+  border: 2px solid hsla(0, 0%, 100%, 0.3);
+
+  position: relative;
+  padding: 10px;
+  text-align: center;
+}
+
+.burgerbox-container .burgerbox .fa-heart {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 25px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.burgerbox-container .burgerbox .fa-heart:hover {
+  color: yellow;
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+}
+
+.burgerbox-container .burgerbox .image img {
+  height: 150px;
+  width: auto;
+  margin-top: 20px;
+}
+.burgerbox-container .burgerbox:hover .image img {
+  transform: scale(1.2);
+  transition-duration: 0.8s;
+}
+.burgerbox-container .burgerbox .burgercontent h3 {
+  font-size: 30px;
+  color: white;
+}
+.burgerbox-container .burgerbox .burgercontent p {
+  font-size: 14px;
+}
+
+.burgerbox-container .burgerbox .burgercontent .stars {
+  padding: 5px 0;
+  font-size: 20px;
+}
+
+.burgerbox-container .burgerbox .burgercontent .stars i {
+  color: gold;
+}
+
+.burgerbox-container .burgerbox .burgercontent .stars h5 {
+  color: #a9a8a8;
+  display: inline-block;
+}
+
+.burgerbox-container .burgerbox .burgercontent .burgerprice {
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+}
+
+.burgerbox-container .burgerbox .burgercontent .burgerprice h5 {
+  font-size: 15px;
+  color: #aba9a9;
+  text-decoration: line-through;
+  display: inline-block;
+}
+@media (max-width: 1260px) {
+  .burgerbox-container {
+    margin: 29px;
+    width: 45%;
+  }
+}
+@media (max-width: 1160px) {
+  .burgerbox-container {
+    width: 44%;
+    margin: 29px;
+  }
+}
+@media (max-width: 967px) {
+  .burgerbox-container {
+    width: 44%;
+    margin: 27px;
+  }
+}
+@media (max-width: 900px) {
+  .burgerbox-container {
+    width: 43%;
+    margin: 27px;
+  }
+}
+@media (max-width: 771px) {
+  .burgerbox-container {
+    width: 42%;
+    margin: 27px;
+  }
+}
+@media (max-width: 675px) {
+  .burgerbox-container {
+    width: 40%;
+    margin: 27px;
+  }
+}
+@media (max-width: 540px) {
+  .burgerbox-container {
+    width: 85%;
+  }
+}
